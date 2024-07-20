@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 4</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">
+                <a href="#home">Breaking bad</a>
+            </h1>
+            <div class="menu-hamburguer" id="menu-toggle">
+                <box-icon id="icon" color=" #eaeaea" name='menu' type='regular' size='lg'></box-icon>
+            </div>
+            <nav class="header__buttons" id="header-buttons">
+                <ul class="header__list">
+                    <li class="header__list__item">
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="#sobre">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="#episodios">
+                            Episódios
+                        </a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="#mais">
+                            Mais+
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero__content">
+            <img class="hero__content__logo" src="./src/images/logo.jpeg" alt="Breaking bad logo hero">
+            <ul class="hero__content__list">
+                <li class="hero__content__list__item">16</li>
+                <li class="hero__content__list__item">2008</li>
+                <li class="hero__content__list__item">5 Temporadas</li>
+                <li class="hero__content__list__item">Drama</li>
+            </ul>
+            <p class="hero__content__text text">
+                Breaking Bad é uma série de televisão americana criada e produzida por Vince Gilligan. Ela retrata a vida do químico Walter White, um homem brilhante frustrado em dar aulas para adolescentes do ensino médio enquanto lida com um filho sofrendo de paralisia cerebral, uma esposa grávida e dívidas intermináveis. 
+            </p>
+            <div class="container__button">
+                <a class="button" href="#">Assistir</a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="sobre">
+        <div class="about__content">
+            <h2 class="title">
+                Leia o <br>
+                <span class="title--big">Resumo</span>
+            </h2>
+            <div class="about__content__grid">
+                <img src="./dist/images/elenco.jpeg" alt="imagem serie Breaking elenco">
+                <div class="about__content__grid__text">
+                    <h3 class="title--small">Sobre a Série</h3>
+                    <p>
+                        Breaking Bad se passa em Albuquerque, Novo México, e gira em torno das escolhas de seu protagonista, as quais o levam a uma intensa, dolorosa e inevitável transformação. Amplamente considerada como uma das melhores séries da história, ao seu final, foi um dos programas da televisão a cabo mais assistidos nos Estados Unidos,[8] recebendo inúmeros prémios, incluindo dezesseis Primetime Emmy Awards, oito Satellite Awards, dois Globos de Ouro e um Prémio Escolha Popular. Em 2014, entrou para o Livro dos Recordes como o seriado mais bem avaliado de todos os tempos pela crítica.
+
+                        A série foi originalmente exibida pelo canal de televisão por assinatura AMC, onde estreou no dia 20 de janeiro de 2008 e, depois de cinco temporadas de sucesso, teve seu último episódio transmitido no dia 29 de setembro de 2013. Em Portugal, foi exibida pelos canais SIC Radical, TVséries e MOV. No Brasil, o seriado é exibido pelo canal pago AXN e pelo serviço de streaming Netflix e, na TV aberta, foi exibida pela Rede Record[9] e pela Band.[10]
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="episodes" id="episodios">
+        <div class="episodes__title">
+            <h2 class="title">Episódios</h2>
+            <h3 class="title--small">Temporada 1</h3>
+        </div>
+        <ul class="episodes__list">
+            <li class="episodes__list__item">
+                <img src="./dist/images/piloto_1.jpeg" alt="espisodio-1">
+                <span class="text">1. Piloto</span>
+                <p class="text--small">
+                    Walter White é um professor de química que descobre ter câncer no pulmão, e então decide unir-se a um ex-aluno para criar uma nova droga e garantir que sua família tenha um futuro seguro.
+                </p>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./dist/images/episodio_2.jpeg" alt="The Cat's in the Bag">
+                <span class="text">2. The Cat's in the Bag</span>
+                <p class="text--small">
+                    Walter e Jesse precisam decidir o que fazer com os corpos de Emilio e Krazy 8, após o desastre ocorrido no deserto. Skyler começa a suspeitar das recentes atividades de Walt.
+                </p>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./dist/images/episodio_3.jpeg" alt="episodio_3">
+                <span class="text">3. And the Bag's in the River</span>
+                <p class="text--small">
+                    Depois de uma discussão com Jesse, Walter tem que lidar sozinho com Krazy 8; Marie desconfia que Walt Jr. está fumando maconha, e Hank conversa com ele sobre os perigos do uso de drogas.
+                </p>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./dist/images/epsisodio_4.jpeg" alt="epsisodio_4">
+                <span class="text">4. Cancer Man</span>
+                <p class="text--small">
+                    A agência de combate às drogas suspeita de um novo chefe do tráfico; Walt revela a Hank e Marie que está com câncer; Walter canaliza sua raiva em um alvo explosivo; Jesse visita sua família, que não vê há muito tempo.
+
+                </p>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./dist/images/episodio_5.jpeg" alt="episodio_5">
+                <span class="text">5. Gray Matter</span>
+                <p class="text--small">
+                    Walter e Skyler vão a uma festa em homenagem a um antigo colega cientista; Jesse tenta se livrar das drogas; Skyler organiza uma intervenção para Walt procurar tratamento.
+                </p>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./dist/images/episodio_6.jpeg" alt="episodio_6">
+                <span class="text">6. Crazy Handful of Nothin'</span>
+                <p class="text--small">
+                    Os efeitos colaterais da quimioterapia começam a incomodar Walt, que volta a lidar com metanfetamina. O amigo de Jesse, Skinny Pete, o apresenta a um distribuidor chamado Tuco, mas as coisas saem de forma errada e Jesse termina hospitalizado.
+                </p>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./dist/images/episodio_7.jpeg" alt="The Breaking Point">
+                <span class="text">7. A No-Rough-Stuff-Type Deal</span>
+                <p class="text--small">
+                    Walter abraça sua nova identidade depois de uma reunião escolar; Jesse decide vender a casa da tia; Marie organiza um chá de bebê para Skyler.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section class="more" id="mais">
+        <h2 class="title">OficialTrailer</h2>
+        <div class="more__container-video">
+            <iframe width="695" height="391" src="https://www.youtube.com/embed/2-W6_6gJda0" title="Breaking Bad - Trailer Legendado (SPOILER ALERT)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            </div>
+            <div class="footer__text">
+                <p class="text--small">Criado por Gustavo Mabilia</p>
+                <p class="text--small">Este site não é oficial e não está afiliado à série "Breaking Bad" ou à emissora.</p>
+                <p class="text--small">Este site é apenas para fins de estudo e entretenimento.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Código dos ícones -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace();
+    </script>   
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
